@@ -78,7 +78,7 @@ document.querySelector('.btn-buy').addEventListener('click', function() {
     }
     
     // Nomor telepon tujuan
-    var nomorTelepon = "6288707773700"; // Ganti dengan nomor telepon tujuan
+    var nomorTelepon = "62**********"; // Ganti dengan nomor telepon tujuan
     
     // Membuat URL untuk aplikasi WhatsApp dengan pesan yang dipilih
     var url = "https://wa.me/" + nomorTelepon + "?text=" + encodeURIComponent(pesan);
